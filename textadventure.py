@@ -60,6 +60,6 @@ class Adventure:
             print("Under construction.")
 
     def gameover(self):
-        print("You died.")
+        input("You died.")
 adventure = Adventure()
 adventure.pt0()
